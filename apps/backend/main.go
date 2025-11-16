@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/api"
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/database"
+	"github.com/dwfennell/monorepo-scaffold/internal/api"
+	"github.com/dwfennell/monorepo-scaffold/internal/database"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"

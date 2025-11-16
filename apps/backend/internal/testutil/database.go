@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/database"
+	"github.com/dwfennell/monorepo-scaffold/internal/database"
 )
 
 // GetTestDatabaseURL returns the test database URL from environment

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/database"
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/models"
+	"github.com/dwfennell/monorepo-scaffold/internal/database"
+	"github.com/dwfennell/monorepo-scaffold/internal/models"
 	"github.com/jackc/pgx/v5"
 )
 

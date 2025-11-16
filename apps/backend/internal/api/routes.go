@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/database"
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/repository"
+	"github.com/dwfennell/monorepo-scaffold/internal/database"
+	"github.com/dwfennell/monorepo-scaffold/internal/repository"
 	"github.com/gin-gonic/gin"
 )
 

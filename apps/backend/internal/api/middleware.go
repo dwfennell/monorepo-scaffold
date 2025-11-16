@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/auth"
+	"github.com/dwfennell/monorepo-scaffold/internal/auth"
 	"github.com/gin-gonic/gin"
 )
 

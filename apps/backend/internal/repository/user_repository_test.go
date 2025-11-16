@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/database"
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/models"
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/testutil"
+	"github.com/dwfennell/monorepo-scaffold/internal/database"
+	"github.com/dwfennell/monorepo-scaffold/internal/models"
+	"github.com/dwfennell/monorepo-scaffold/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

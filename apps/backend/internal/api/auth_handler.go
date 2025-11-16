@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/auth"
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/models"
-	"github.com/dwfennell/monorepo-scaffold/backend/internal/repository"
+	"github.com/dwfennell/monorepo-scaffold/internal/auth"
+	"github.com/dwfennell/monorepo-scaffold/internal/models"
+	"github.com/dwfennell/monorepo-scaffold/internal/repository"
 	"github.com/gin-gonic/gin"
 )
 
