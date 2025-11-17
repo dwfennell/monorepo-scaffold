@@ -12,6 +12,7 @@
     "test": "turbo test",
     "lint": "turbo lint",
     "format": "turbo format",
+    "type-check": "turbo type-check",
     "clean": "turbo clean"
   },
   "devDependencies": {
