@@ -1,23 +1,2 @@
-export interface User {
-  id: number
-  email: string
-  name: string
-  created_at: string
-  updated_at: string
-}
-
-export interface RegisterRequest {
-  email: string
-  password: string
-  name: string
-}
-
-export interface LoginRequest {
-  email: string
-  password: string
-}
-
-export interface AuthResponse {
-  token: string
-  user: User
-}
+// Re-export shared types from @workspace/types
+export type { User, RegisterRequest, LoginRequest, AuthResponse } from '@workspace/types'

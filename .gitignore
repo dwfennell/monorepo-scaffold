@@ -11,6 +11,9 @@ tmp/
 *.so
 *.dylib
 
+# Turbo
+.turbo
+
 # Go binaries
 apps/backend/server
 apps/backend/backend
