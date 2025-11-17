@@ -85,9 +85,7 @@ describe('Login', () => {
 
   it('disables form inputs while loading', async () => {
     const user = userEvent.setup()
-    mockLogin.mockImplementation(
-      () => new Promise((resolve) => setTimeout(resolve, 100))
-    )
+    mockLogin.mockImplementation(() => new Promise((resolve) => setTimeout(resolve, 100)))
 
     render(<Login />)
 
