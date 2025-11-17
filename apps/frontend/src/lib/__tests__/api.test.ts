@@ -1,8 +1,4 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
-
-// Set up environment before importing API
-vi.stubEnv('VITE_API_URL', 'http://localhost:8080')
-
 import { api, APIError } from '../api'
 
 // Mock fetch globally
