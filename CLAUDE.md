@@ -16,6 +16,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **ALWAYS inform the user** if you did not fully implement a feature or left any incomplete work
 - Every feature you implement should be fully functional, not a stub or placeholder
 
+**YAGNI (You Aren't Gonna Need It)**:
+- **Only add what's needed now** - resist the temptation to build for hypothetical future requirements
+- **Build extensible structures** - use patterns, interfaces, and abstractions that allow future growth
+- **Don't add unnecessary code** - avoid extra features, options, or complexity that aren't currently required
+- **Avoid over-engineering** - keep solutions simple and focused on the current problem
+- Example: Don't add pagination to a list that currently has 5 items, but structure the API so pagination can be added later when needed
+
 ## Essential Commands
 
 ### Development
