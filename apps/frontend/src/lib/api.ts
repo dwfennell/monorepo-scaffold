@@ -1,6 +1,6 @@
 import type { AuthResponse, LoginRequest, RegisterRequest, User } from '../types/auth'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080'
+const API_URL = import.meta.env.VITE_API_URL
 
 class APIError extends Error {
   constructor(
@@ -13,6 +13,12 @@ class APIError extends Error {
 }
 
 async function fetchAPI<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
+  if (!API_URL) {
+    throw new Error(
+      'VITE_API_URL is not set. Please copy .env.example to .env and configure your environment variables.'
+    )
+  }
+
   const token = localStorage.getItem('token')
 
   const headers: Record<string, string> = {
